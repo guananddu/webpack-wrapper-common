@@ -4,8 +4,9 @@
   "description": "Webpack wrapper for common",
   "main": "index.js",
   "bin": {
-    "wb": "./bin/wb.js",
-    "wbs": "./bin/wbs.js"
+    "tt-gp": "./bin/tt-gp.js",
+    "tt-wb": "./bin/tt-wb.js",
+    "tt-wbs": "./bin/tt-wbs.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
