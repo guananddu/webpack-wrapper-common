@@ -39,6 +39,8 @@
     "file-loader": "^0.8.4",
     "gulp": "^3.9.1",
     "html-minify-loader": "^1.1.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
     "node-sass": "^3.13.0",
