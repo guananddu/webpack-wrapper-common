@@ -1,6 +1,6 @@
 {
   "name": "webpack-wrapper-common",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Webpack wrapper for common",
   "main": "index.js",
   "bin": {
@@ -70,6 +70,7 @@
     "vue-template-compiler": "^2.1.4",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2",
+    "webpack-md5-hash": "0.0.5",
     "webpack-stream": "^3.2.0"
   }
 }
