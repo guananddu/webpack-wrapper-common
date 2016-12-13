@@ -1,6 +1,6 @@
 {
   "name": "webpack-wrapper-common",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Webpack wrapper for common",
   "main": "index.js",
   "bin": {
@@ -35,6 +35,7 @@
     "bundle-loader": "^0.5.4",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.12.0",
+    "copy-webpack-plugin-hash": "^3.0.2",
     "css-loader": "^0.16.0",
     "es6-promise-polyfill": "^1.2.0",
     "expose-loader": "^0.7.1",
@@ -42,6 +43,7 @@
     "file-loader": "^0.8.4",
     "gulp": "^3.9.1",
     "html-minify-loader": "^1.1.0",
+    "html-res-webpack-plugin": "^1.1.3",
     "html-webpack-plugin": "^2.24.1",
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
