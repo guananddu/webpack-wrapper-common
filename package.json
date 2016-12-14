@@ -1,6 +1,6 @@
 {
   "name": "webpack-wrapper-common",
-  "version": "1.0.16",
+  "version": "1.0.18",
   "description": "Webpack wrapper for common",
   "main": "index.js",
   "bin": {
