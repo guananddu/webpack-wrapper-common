@@ -1,0 +1,26 @@
+{
+  "name": "webpack_demo",
+  "description": "webpack_demo",
+  "main": "index.js",
+  "authors": [
+    "guanwei@bytedance.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "webpack"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "jquery-validation": "jquery.validate#^1.13.0"
+  }
+}

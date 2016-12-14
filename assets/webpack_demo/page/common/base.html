@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <!-- 通用css -->
+    <!-- <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css"> -->
+    {% block link %}{% endblock %}
+</head>
+<body>
+{% include '[tplroot]/page/common/version.html' %}
+{% block content %}{% endblock %}
+
+<!-- 通用js -->
+<!-- <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/bower_components/jquery-validation/dist/additional-methods.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
+<script src="vendor"></script>
+<script src="react"></script>
+{% block script %}{% endblock %}
+</body>
+</html>
