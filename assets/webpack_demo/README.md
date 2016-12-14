@@ -16,7 +16,7 @@
 
 `npm run watch`
 
-`fis3b ws start`
+`npm run fisws`
 
 会自动打开浏览器，进入 `output` 中寻找对应的模板即可调试
 
