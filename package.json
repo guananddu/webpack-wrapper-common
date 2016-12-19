@@ -1,6 +1,6 @@
 {
   "name": "webpack-wrapper-common",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Webpack wrapper for common",
   "main": "index.js",
   "bin": {
@@ -80,12 +80,12 @@
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2",
     "webpack-md5-hash": "0.0.5",
-    "webpack-stream": "^3.2.0"
-  },
-  "devDependencies": {
+    "webpack-stream": "^3.2.0",
     "autoprefixer": "^6.5.4",
     "download-git-repo": "^0.2.1",
     "minimist": "^1.2.0",
     "ora": "^0.3.0"
+  },
+  "devDependencies": {
   }
 }

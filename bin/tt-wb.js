@@ -5,8 +5,8 @@ const path = require( 'path' );
 const fs = require( 'fs' );
 const shell = require( 'shelljs' );
 const argv = require( 'minimist' )( process.argv.slice( 2 ) );
-const download = require('download-git-repo');
-const ora = require('ora');
+const download = require( 'download-git-repo' );
+const ora = require( 'ora' );
 
 const wbDir = __dirname;
 const workDir = process.cwd();
