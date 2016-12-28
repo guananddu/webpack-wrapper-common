@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-const cp = require( 'child_process' );
-const path = require( 'path' );
-const fs = require( 'fs' );
-const wbDir = __dirname;
+var cp = require( 'child_process' );
+var path = require( 'path' );
+var fs = require( 'fs' );
+var wbDir = __dirname;
 
-const wbNodeModulesPath = path.resolve( wbDir, '../node_modules' );
+var wbNodeModulesPath = path.resolve( wbDir, '../node_modules' );
 
 require( '../common/createSoft' );
 

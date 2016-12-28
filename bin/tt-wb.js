@@ -1,31 +1,31 @@
 #!/usr/bin/env node
 
-const cp = require( 'child_process' );
-const path = require( 'path' );
-const fs = require( 'fs' );
-const shell = require( 'shelljs' );
-const argv = require( 'minimist' )( process.argv.slice( 2 ) );
-const download = require( 'download-git-repo' );
-const ora = require( 'ora' );
+var cp = require( 'child_process' );
+var path = require( 'path' );
+var fs = require( 'fs' );
+var shell = require( 'shelljs' );
+var argv = require( 'minimist' )( process.argv.slice( 2 ) );
+var download = require( 'download-git-repo' );
+var ora = require( 'ora' );
 
-const wbDir = __dirname;
-const workDir = process.cwd();
+var wbDir = __dirname;
+var workDir = process.cwd();
 
 
 // 检查是不是查看版本号
 if ( argv[ 'V' ] ) {
-    let version = require( '../package.json' ).version;
+    var version = require( '../package.json' ).version;
     console.log( `webpack-wrapper-common: ${version}` );
     return;
 }
 
 if( ~ argv[ '_' ].indexOf( 'init' ) ) {
 
-    let params = argv[ '_' ];
+    var params = argv[ '_' ];
 
     if(params.length == 1) {
 
-        let targetDir = path.resolve( __dirname, '..', 'assets/webpack_demo' );
+        var targetDir = path.resolve( __dirname, '..', 'assets/webpack_demo' );
         shell.cp( '-rf', `${targetDir}/*`, workDir );
 
         // 直接写入文件
@@ -48,7 +48,7 @@ if( ~ argv[ '_' ].indexOf( 'init' ) ) {
     }
     // load from github
     if(params.length > 1) {
-        let spinner = ora(`Start loading template from ${params[1]}`);
+        var spinner = ora(`Start loading template from ${params[1]}`);
         spinner.start();
         download(params[1], workDir, function(err) {
             if (err) {
@@ -64,7 +64,7 @@ if( ~ argv[ '_' ].indexOf( 'init' ) ) {
     }
 }
 
-const wbNodeModulesPath = path.resolve( wbDir, '../node_modules' );
+var wbNodeModulesPath = path.resolve( wbDir, '../node_modules' );
 
 require( '../common/createSoft' );
 
