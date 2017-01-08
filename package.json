@@ -1,6 +1,6 @@
 {
   "name": "webpack-wrapper-common",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "Webpack wrapper for common",
   "main": "index.js",
   "bin": {
@@ -47,7 +47,7 @@
     "html-minify-loader": "^1.1.0",
     "html-res-replace-webpack-plugin": "^1.1.5",
     "html-webpack-plugin": "^2.24.1",
-    "html-webpack-random-plugin": "^2.24.2",
+    "html-webpack-random-extend-plugin": "^1.0.0",
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
     "less": "^2.7.1",
